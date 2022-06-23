@@ -1,0 +1,165 @@
+/* 
+    Autor: Aniket;
+    Theme: Data driven website
+    Version: 1.0
+
+*/
+@font-face {
+    src: url(../fonts/Cera\ Pro\ Medium.otf);
+    font-family:CeraPro;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: CeraPro;
+}
+
+
+.wrapper{
+    padding: 20px;
+    width:80%;
+    margin:0 auto;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.tbl-full{
+    display: table;
+    width: 100%;
+}
+.tbl-scheme{
+    display: table;
+    width:100%;
+    
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.tbl-30{
+    width: 30%; 
+}
+
+.btn-danger{
+    background-color: #313181;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #315e81;
+}
+
+.btn-secondary{
+    background-color: #00b3a0;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #36a9b3;
+}
+.btn-primary{
+    background-color:#00b3a0 ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #36a9b3;
+}
+/* css for menu*/
+.menu{
+    background-color: #323182 ;
+    
+    padding: 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #E2E5DE;
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+/* CSS for main content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width:18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.success{
+    color: #2ed573;
+
+}
+.error{
+    color:#ff4757;
+
+}
+/* CSS for footer */ 
+.footer{
+    background-color: #323182;
+    color: white;
+}
+
+/* Css for Login*/
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.refc{
+    color: #E2E5DE;
+}
+
+.logo-img{
+    text-align: left;
+    
+    max-width: 200%;
+    height: auto;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
